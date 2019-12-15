@@ -1280,6 +1280,7 @@ struct task_struct {
 	unsigned long			lowest_stack;
 	unsigned long			prev_lowest_stack;
 #endif
+	unsigned long			sync_counter;	// Sorouri
 
 	/*
 	 * New fields for task_struct should be added above here, so that
